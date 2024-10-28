@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Palindrome Checker</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img class="logo" src="./src/images/logo.svg" alt="palindrome" />
+      <h1>What is a palindrome</h1>
+      <div class="input-container">
+        <label for="text-input">Enter your text to check</label>
+        <input id="text-input" class="text-input" type="text" />
+        <button id="check-btn" class="check-btn">Check</button>
+        <div id="result" class="result"></div>
+      </div>
+      <div class="palindrome-info">
+        <p class="palindrome-introduction">
+          The term derives from the Greek palin dromo (“running back again”).
+          Examples of word palindromes include “civic,” “madam,” “radar,” and
+          “deified.” Numerical palindromes include sequences that read the same
+          in reverse order (e.g., 1991), as well as those that can be read
+          upside down and backward
+        </p>
+      </div>
+    </div>
+    <script src="./src/script/main.js"></script>
+  </body>
 </html>
