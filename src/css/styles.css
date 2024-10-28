@@ -1,0 +1,115 @@
+:root {
+  --background-color: #edbb99;
+  --input-container: #a3e4d7;
+  --btn-color: #f0b27a;
+  --describe-container: #34495e;
+  --text: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: var(--background-color);
+  color: var(--text);
+}
+
+.logo {
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.input-container {
+  width: min(100vw, 450px);
+  min-height: 100px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: var(--input-container);
+}
+
+label {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  height: 30px;
+  width: 250px;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid var(--describe-container);
+  background-color: var(--input-container);
+}
+
+.check-btn {
+  width: 90px;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: var(--btn-color);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.result {
+  overflow-y: hidden;
+  word-wrap: break-word;
+  min-height: 50px;
+  color: #000;
+}
+
+.user-input {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.palindrome-info{
+    width: min(100vw, 450px);
+    font-size: 1.5rem;
+    min-height: 140px;
+    background-color: var(--describe-container);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.palindrome-introduction{
+    vertical-align: middle;
+    text-align: center;
+}

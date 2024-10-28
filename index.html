@@ -9,12 +9,14 @@
   <body>
     <div class="container">
       <img class="logo" src="./src/images/logo.svg" alt="palindrome" />
-      <h1>What is a palindrome</h1>
+      <h1>What is a palindrome ?</h1>
       <div class="input-container">
         <label for="text-input">Enter your text to check</label>
         <input id="text-input" class="text-input" type="text" />
         <button id="check-btn" class="check-btn">Check</button>
-        <div id="result" class="result"></div>
+        <div id="result" class="result hidden">
+            <p class="user-input">text is a palindrome</p>
+        </div>
       </div>
       <div class="palindrome-info">
         <p class="palindrome-introduction">
