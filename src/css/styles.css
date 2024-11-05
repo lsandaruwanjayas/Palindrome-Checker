@@ -79,6 +79,11 @@ label {
   cursor: pointer;
 }
 
+.check-btn:hover{
+  color: #000;
+  background-color: var(--text);
+}
+
 .result {
   overflow-y: hidden;
   word-wrap: break-word;
